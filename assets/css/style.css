@@ -533,7 +533,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #37517e;
+  color: #EC6095;
 }
 
 .section-title h2::before {
@@ -553,7 +553,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #47b2e4;
+  background: #F7A833;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -634,14 +634,14 @@ section {
   border-radius: 4px;
   transition: 0.3s;
   line-height: 1;
-  color: #47b2e4;
+  color: #A78ABF;
   animation-delay: 0.8s;
   margin-top: 6px;
-  border: 2px solid #47b2e4;
+  border: 2px solid #A78ABF;
 }
 
 .about .content .btn-learn-more:hover {
-  background: #47b2e4;
+  background: #A78ABF;
   color: #fff;
   text-decoration: none;
 }
