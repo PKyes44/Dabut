@@ -60,15 +60,23 @@
       background-image: url('assets/dabut_img/dabut_in.jpg');
       background-size: cover;
     }
-
-    #header.header-scrolled, #header.header-inner-pages {
-      background: rgba(0,0, 0, 0.7);
-    }
     .portfolio .portfolio-item .portfolio-info .preview-link {
       right: 10px;
     }
     .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover>a {
       color: #EC6095;
+    }
+    #business_a {
+      color: #EB5C2E
+    }
+    #intro_a {
+      color: #6A509D
+    }
+    #notice_a {
+      color: #16AF97
+    }
+    #community_a {
+      color: #495DA7
     }
   </style>
 </head>
@@ -90,6 +98,10 @@
           <li><a class="nav-link scrollto" href="#services">Services</a></li>
           <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a class="nav-link scrollto" href="/intro">Introduce</a></li>
+          <li><a class="nav-link scrollto" href="/business">Business</a></li>
+          <li><a class="nav-link scrollto" href="/notice">Notice</a></li>
+          <li><a class="nav-link scrollto" href="/community">Community</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -219,36 +231,36 @@
         </div>
 
         <div class="row">
-          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
+          <div class="col-xl-3 col-md-6  align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300"  onClick="location.href='/introduce';">
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-tachometer"></i></div>
-              <h4><a href="">조합 소개</a></h4>
+              <div class="icon"><i class="bx bx-tachometer" style="color: #A78ABF"></i></div>
+              <h4 ><a href="/intro" id="intro_a">조합 소개</a></h4>
               <p>조직도, 비전, 로고, 상징물 등 다붓 사회적협동조합을 소개합니다.</p>
             </div>
           </div>
 
-          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
+          <div class="col-xl-3 col-md-6  align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400" onClick="location.href='/business';">
             <div class="icon-box">
-              <div class="icon"><i class="bx ri-community-line"></i></div>
-              <h4><a href="">사업 소개</a></h4>
+              <div class="icon"><i class="bx ri-community-line" style="color: #F7A833"></i></div>
+              <h4 ><a href="/business" id="business_a">사업 소개</a></h4>
               <p>상품 판매 등 다붓 사회적협동조합의 사업을 소개합니다.</p>
             </div>
           </div>
 
           
-          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
+          <div class="col-xl-3 col-md-6  align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300"  onClick="location.href='/notice';">
             <div class="icon-box">
-              <div class="icon"><i class="bx ri-file-text-line"></i></div>
-              <h4><a href="">조합 소식</a></h4>
+              <div class="icon"><i class="bx ri-file-text-line" style="color: #71DFCE"></i></div>
+              <h4><a href="/notice" id="notice_a">조합 소식</a></h4>
               <p>공지사항, 보도자료 등 다붓 사회적협동조합의 소식을 확인할 수 있습니다.</p>
             </div>
           </div>
 
-          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
+          <div class="col-xl-3 col-md-6 align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400" onClick="location.href='/community';">
             <div class="icon-box">
-              <div class="icon"><i class="bx ri-alarm-line"></i></div>
-              <h4><a href="">커뮤니티</a></h4>
-              <p>이용자와 조합원 간의 소통 공간을 제공합니다.</p>
+              <div class="icon"><i class="bx ri-alarm-line" style="color: #6E9ED4"></i></div>
+              <h4><a href="/community" id="community_a">커뮤니티</a></h4>
+              <p>이용자와 다붓 사회적협동조합과의 소통공간입니다.</p>
             </div>
           </div>
 
@@ -390,7 +402,7 @@
 
         <div class="section-title">
           <h2>Contact</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
         </div>
 
         <div class="row">

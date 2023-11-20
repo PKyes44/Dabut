@@ -15,12 +15,12 @@ body {
 }
 
 a {
-  color: #47b2e4;
+  /* color: #47b2e4; */
   text-decoration: none;
 }
 
 a:hover {
-  color: #73c5eb;
+  /* color: #73c5eb; */
   text-decoration: none;
 }
 
@@ -113,10 +113,10 @@ h6 {
   padding: 15px 0;
 }
 
-#header.header-scrolled,
+/* #header.header-scrolled,
 #header.header-inner-pages {
   background: rgba(40, 58, 90, 0.9);
-}
+} */
 
 #header .logo {
   font-size: 30px;
@@ -166,7 +166,7 @@ h6 {
   padding: 10px 0 10px 30px;
   font-size: 15px;
   font-weight: 500;
-  color: #fff;
+  color: #FFB5D1;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -182,7 +182,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #47b2e4;
+  color: #EC6095;
 }
 
 .navbar .getstarted,
@@ -553,7 +553,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #F7A833;
+  background: #FFB5D1;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -647,7 +647,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Why Us
+# Why Uss
 --------------------------------------------------------------*/
 .why-us .content {
   padding: 60px 100px 0 100px;
@@ -864,10 +864,10 @@ section {
   font-size: 24px;
 }
 
-.services .icon-box h4 a {
+/* .services .icon-box h4 a {
   color: #37517e;
   transition: ease-in-out 0.3s;
-}
+} */
 
 .services .icon-box p {
   line-height: 24px;
@@ -959,8 +959,8 @@ section {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  background: #47b2e4;
-  color: #fff;
+  color: #ffffff;
+  background: #16AF97;
 }
 
 .portfolio .portfolio-item {
@@ -1404,8 +1404,8 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact .info {
-  border-top: 3px solid #47b2e4;
-  border-bottom: 3px solid #47b2e4;
+  border-top: 3px solid #495DA7;
+  border-bottom: 3px solid #495DA7;
   padding: 30px;
   background: #fff;
   width: 100%;
@@ -1478,8 +1478,8 @@ section {
 
 .contact .php-email-form {
   width: 100%;
-  border-top: 3px solid #47b2e4;
-  border-bottom: 3px solid #47b2e4;
+  border-top: 3px solid #495DA7;
+  border-bottom: 3px solid #495DA7;
   padding: 30px;
   background: #fff;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
@@ -1568,7 +1568,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #47b2e4;
+  background: #6E9ED4;
   border: 0;
   padding: 12px 34px;
   color: #fff;
@@ -1595,7 +1595,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 15px 0;
-  background: #f3f5fa;
+  /* background: #f3f5fa; */
   min-height: 40px;
   margin-top: 72px;
 }
